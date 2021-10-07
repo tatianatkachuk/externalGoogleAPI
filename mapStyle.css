@@ -1,0 +1,60 @@
+#map {
+    width: 900px;
+    height: 800px; 
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+.location__list{
+    
+    width: fit-content;
+    height: 300px;
+    border: 2px solid black;
+    z-index: 5;
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+    color: white;
+    background-color: #333;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location__list>h3{
+    text-align: center;
+    border-bottom: 3px solid lightblue;
+    padding: 0.5rem;
+}
+
+.location__names{
+    flex: 1;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.window{
+    height: fit-content;
+    width: fit-content;
+    background-color: #333;
+    color: white;
+    padding: 0.2rem;
+    opacity: 0.8;
+}
+
+.gm-style-iw{
+    background: #333 !important;
+    opacity: 0.8 !important;
+    box-shadow: 0 2px 7px 7px rgba(0, 0, 0, 5);
+}
+.gm-style-iw-d{
+    overflow: hidden !important;
+}
